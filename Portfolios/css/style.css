@@ -1,0 +1,78 @@
+body {
+    margin: 20px;
+    font-family: 'Nunito';}
+a, a:hover, a:active {
+    text-decoration: none;
+    color: white;}
+.row {flex-wrap: wrap;}
+.board_text {
+    padding-left: 170px;}
+.board_text h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #33CCCC;
+    font-weight: 900;}
+.board_text p {
+    line-height: 30px;
+    width: 340px;}
+.board_img img {
+    margin-left: 170px;
+    width: 450px;
+    height: 340px;}
+h2 {
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 40px;
+    margin-top: 40px;}
+.sub_title {text-align: center;}
+.pocket {
+    color: white;
+    background: #33CCCC;
+    width: 360px;}
+.top {
+    padding: 40px;}
+.top h2 {
+    margin-bottom: 25px;
+    margin-top: -20px;
+    }
+.top img {
+    margin-bottom: 25px;
+    margin-top: 45px;}
+hr {margin: 0px;}
+.pocket p.law {
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 40px;}
+.ex {background: #05014a;}
+.col_a, .col_b, .col_c {
+    margin-right: 40px;
+    margin-left: 40px;}
+
+@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 768px) {}
+@media screen and (max-width: 425px) {
+  .board_text {
+    padding-left: 20px;}
+  .board_text p {width: 280px;}
+  .board_img img {
+    margin-left: 20px;
+    width: 250px;
+    height: 200px;}
+  h2 {font-size: 30px;}
+    .col_a, .col_b, .col_c {
+        margin-right: 10px;
+        margin-left: 10px;}
+    .pocket {width: 290px;}
+    .top {padding: 15px;}
+    .top h2 {
+    margin-top: 5px;
+    }
+
+}
+@media screen and (max-width: 414px) {}
+@media screen and (max-width: 411px) {}
+@media screen and (max-width: 375px) {}
+@media screen and (max-width: 360px) {}
+@media screen and (max-width: 320px) {}
+   
